@@ -3,6 +3,17 @@
 /// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
 
 :root {
-    --color-primary: #5721f2;
-    --color-on-surface: #000;
+  --body-bg-color: #0c1829;
+  --card-bg-color: #13243c;
+  --primary-text-color: #04fcfa;
+  --secondary-text-color: #9293b9;
+  --white: #fff;
+  --stroke: #2b3953;
+  --fontS-xs: 14px;
+  --fontS-s: 16px;
+  --fontS-m: 18px;
+  --fontS-l: 24px;
+  --fontW-medium: 500;
+  --fontW-semiBold: 600;
+  --round: 20px;
 }
