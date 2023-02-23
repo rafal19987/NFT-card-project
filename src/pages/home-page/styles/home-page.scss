@@ -114,3 +114,71 @@
     }
   }
 }
+
+// styles for desktop
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 413px;
+    height: 556px;
+    &__backgroundImg {
+      background-image: url('/images/Frame\ 1000003598 - big.png');
+      height: 399px;
+      width: 413px;
+    }
+    &__nft-info {
+      width: 278px;
+      height: 115px;
+      margin: 252px 103px 0 32px;
+    }
+    .nft-info {
+      &__description {
+        width: 278px;
+        margin-top: 24px;
+      }
+    }
+    .currency-info {
+      &__icon {
+        margin: 44.5px 0 0 32px;
+      }
+      &__tokens {
+        font-size: var(--fontS-m);
+        line-height: 29px;
+        width: 85px;
+        height: 29px;
+        margin: 40px 0 0 10px;
+      }
+      &__clock-icon {
+        margin: 45px 0 0 129px;
+      }
+      &__days-left {
+        font-size: var(--fontS-s);
+        line-height: 26px;
+        width: 75px;
+        height: 26px;
+        margin: 42px 32px 0 10px;
+      }
+    }
+    &__stroke {
+      margin: 33px 32px 0 32px;
+      border: 1.5px solid var(--stroke);
+      width: 349px;
+    }
+    &__author-info {
+      display: flex;
+      width: 224px;
+      margin: 22px 157px 24px 32px;
+    }
+    .author-info {
+      &__author-description {
+        font-size: var(--fontS-s);
+        line-height: 26px;
+        margin: 7px 0 7px 16px;
+      }
+      &__author-name {
+        color: var(--white);
+        margin-left: 0px;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
