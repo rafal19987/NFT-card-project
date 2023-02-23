@@ -34,9 +34,15 @@
       font-size: var(--fontS-l);
       font-weight: var(--fontW-semiBold);
       line-height: 33px;
-      width: 213px;
       min-height: 33px;
       max-height: 100%;
+      width: 213px;
+      // below is code for wrap text if it is longer than 2 lines
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
     }
     &__description {
       color: var(--secondary-text-color);
