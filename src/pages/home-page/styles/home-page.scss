@@ -1,6 +1,3 @@
-/// Homepage Styles File
-/// Here we import all the Styles files we need for our Homepage.
-
 // Mobile styles
 .card {
   position: relative;
@@ -37,7 +34,7 @@
       min-height: 33px;
       max-height: 100%;
       width: 213px;
-      // below is code for wrap text if it is longer than 2 lines
+      // code for wrap text if it is longer than 2 lines
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
